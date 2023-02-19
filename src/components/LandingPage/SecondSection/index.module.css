@@ -1,1 +1,104 @@
-@import '/src/styles/font.module.css';
+@import "/src/styles/font.module.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratings {
+  display: flex;
+  align-self: center;
+  width: 847px;
+  height: 113px;
+  margin-top: -32px;
+  background: #d19439;
+  border-radius: 20px;
+  padding: 15px 50px;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.ratings-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratings-percent {
+    display: flex;
+    padding-left: 30px;
+  flex-direction: column;
+  border-left: 1px solid rgba(189, 189, 189, 0.7);
+}
+
+.ratings-time {
+    display: flex;
+    padding-left: 30px;
+  flex-direction: column;
+  border-left: 1px solid rgba(189, 189, 189, 0.7);
+}
+
+.ratings-top {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  align-self: center;
+}
+
+.ratings-buttom {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f5f5f5;
+  align-self: center;
+}
+
+.buttom-section {
+    display: flex;
+    margin-top: 234px;
+    padding-right: 167px;
+    padding-left: 181px;
+}
+
+.buttom-section img {
+    width: 393px;
+    height: 424px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+}
+.text-title {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: 0.02em;
+
+color: #222222;
+}
+
+.text-title span {
+    color: #D19439;
+}
+
+.text-body {
+width: 563px;
+height: 125px;
+margin-right: 136px;
+margin-top: 30px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #222222;
+
+}

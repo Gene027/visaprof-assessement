@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.module.css'
 import { Cards } from './shared/Cards'
-import data from './shared/data'
+import {data} from './shared/data'
 
 export function TopDestinations() {
   return (

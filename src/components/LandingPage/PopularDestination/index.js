@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './index.module.css'
 import { Cards } from './shared/Cards'
-import data from './shared/data'
+import {data} from './shared/data'
 
-export function PopularDestinations() {
+export function PopularDestination() {
   return (
     <div className={styles['container']}>
       <div className={styles['title']}>Popular destinations</div>

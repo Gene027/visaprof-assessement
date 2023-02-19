@@ -1,1 +1,67 @@
-@import '/src/styles/font.module.css';
+@import "/src/styles/font.module.css";
+
+.container {
+  /* background-image: url("/top-section-bg.png"); */
+  background-color: gray;
+  width: 100vw;
+  height: 778px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-header {
+  width: 504px;
+  height: 90px;
+  margin-left: 52px;
+  margin-top: 200px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 0.01em;
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.destinations {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  margin-left: 52px;
+  margin-top: 140px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.32) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  box-shadow: 0px 4px 24px rgba(212, 175, 156, 0.25);
+  backdrop-filter: blur(22.5px);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 16px 11px 17px;
+}
+
+.cards-container {
+  display: flex;
+  flex-grow: 0;
+  flex-flow: row, nowrap;
+  column-gap: 15px;
+}
+
+.swap-icon {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+}
+
+.next-button {
+  align-self: center;
+  justify-self: center;
+  height: 73px;
+  width: 73px;
+  margin-top: 20px;
+}

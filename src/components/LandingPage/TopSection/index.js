@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './index.module.css'
 import { Cards } from './shared/Cards'
-import data from './shared/data'
-export function TopDestinations() {
+import {data} from './shared/data'
+export function TopSection() {
   return (
     <div className={styles['container']}>
 
@@ -21,8 +21,8 @@ export function TopDestinations() {
             )
           })}
         </div>
-        <div className={styles['swap-icon']}>ReactSwapIcon</div>
-        <div className={styles['next-button']}>Nextbutton</div>
+        <div className={styles['swap-icon']}> <img src="/swap-button.png" alt="swap button" /></div>
+        <div className={styles['next-button']}> <img src="/next-button.png" alt="next button" /></div>
       </div>
     </div>
   )

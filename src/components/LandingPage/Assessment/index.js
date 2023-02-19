@@ -9,9 +9,9 @@ export function Assessment() {
       <div className={styles['sub-title']}>Feel free to enquire about any questions you have</div>
       <div>
         <form action="">
-          <input type="text" name='fullName' value={form.fullName} placeholder='Full name' />
-          <input type="email" name='email' value={form.email} placeholder='Email address' />
-          <textarea name='textarea' value={form.textarea} placeholder='Type message here' />
+          <input type="text" name='fullName' placeholder='Full name' />
+          <input type="email" name='email'  placeholder='Email address' />
+          <textarea name='textarea' placeholder='Type message here' />
           <Button>Send</Button>
         </form>
       </div>
