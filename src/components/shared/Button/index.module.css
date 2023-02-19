@@ -1,0 +1,29 @@
+@import '/src/styles/font.module.css';
+
+.button {
+    padding: 0px 25px;
+    height: 44px;
+    border-radius: 15px;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    transition: 0.5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+.solid {
+    color: #f5f5f5;
+    background-color: #d19439;
+    border: none;
+}
+
+.outline {
+    color: #222222;
+    background-color: transparent;
+    border: 1px solid #d19439;
+}
