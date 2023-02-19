@@ -1,1 +1,62 @@
-@import '/src/styles/font.module.css';
+@import "/src/styles/font.module.css";
+
+.container {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(14, 31, 53, 0.12);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  align-self: center;
+  justify-self: center;
+  height: 90px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #222222;
+}
+
+.stats {
+    background: #D19439;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.text-top {
+    padding-top: 19px;
+    padding-left: 25px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #F5F5F5;
+}
+
+.text-middle {
+    padding-top: 3px;
+    padding-left: 25px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+}
+
+.text-buttom {
+    padding-top: 3px;
+    padding-left: 25px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 50px;
+letter-spacing: 0.02em;
+color: #F5F5F5;
+}

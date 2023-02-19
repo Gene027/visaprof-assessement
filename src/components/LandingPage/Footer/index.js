@@ -5,7 +5,13 @@ export function Footer() {
   return (
     <div className={styles['container']}>
       <div className={styles['footer-top']}>
-        <div className={styles['social-handle']}></div>
+        <div className={styles['social-handle']}>
+          <a href="http://"><img src="/Linkedin_perspective_matte.png" alt="linkedIn" /></a>
+          <a href="http://"><img src="/WhatsappOctDenoiserBeauty_001 copy.png" alt="whatsapp" /></a>
+          <a href="http://"><img src="/Twitter_perspective_matte.png" alt="twitter" /></a>
+          <a href="http://"><img src="/Facebook_perspective_matte.png" alt="facebook" /></a>
+          <a href="http://"><img src="/Instagram_perspective_matte.png" alt="instagram" /></a>
+        </div>
 
         <div className={styles['footer-main-section']}>
           <div className={styles['top']}>Company</div>

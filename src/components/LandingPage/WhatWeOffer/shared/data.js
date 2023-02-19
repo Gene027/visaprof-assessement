@@ -2,25 +2,25 @@
 export const data = [
     {
         id: 1,
-        top: "react-icon-TV",
+        top: "/Ellipse 237.svg",
         middle: "Visa Consultation",
         buttom: "Our qualified and dependable visa consultants can assist you in obtaining a favorable result in your case."
     },
     {
         id: 2,
-        top: "react-icon-gift",
+        top: "/Ellipse 237 (1).svg",
         middle: "Resources",
         buttom: "We provide our clients with important information and resources and also the travel requrements needed."
     },
     {
         id: 3,
-        top: "react-icon-support",
+        top: "/Ellipse 237 (2).svg",
         middle: "Resources",
         buttom: "We also provide  required document support to ease the application process."
     },
     {
         id: 4,
-        top: "react-icon-assessment",
+        top: "/Ellipse 237 (3).svg",
         middle: "Free Assessment",
         buttom: "We help those who want to know their eligibility status by assisting with free visa assessment."
     }

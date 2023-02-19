@@ -7,7 +7,7 @@ export function TopDestinations() {
   return (
     <div className={styles['container']}>
       <div className={styles['title']}>Top <span>Destinations</span></div>
-      <div>
+      <div className={styles['cards']}>
         {data.map(item => {
           return (
             <Cards key={item.id}

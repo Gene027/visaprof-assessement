@@ -1,1 +1,80 @@
-@import '/src/styles/font.module.css';
+@import "/src/styles/font.module.css";
+
+.container {
+  margin-top: 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  align-self: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #222222;
+}
+
+.sub-title {
+  margin-top: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #d19439;
+}
+
+.form-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  margin-top: 20px;
+  border: none;
+  width: 653px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.form-container input::placeholder {
+  padding-left: 60px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #757575;
+}
+
+.form-container textarea::placeholder {
+  padding-left: 60px;
+  padding-top: 26px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #757575;
+}
+
+.form-container textarea {
+  margin-top: 20px;
+  border: none;
+  width: 653px;
+  height: 142px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.form-container div {
+  margin-top: 30px;
+  align-self: center;
+}

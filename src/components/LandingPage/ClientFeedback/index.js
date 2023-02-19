@@ -6,8 +6,8 @@ import {data} from './shared/data'
 export function ClientFeedback() {
   return (
     <div className={styles['container']}>
-      <div>What <span>our clients</span> have to say?</div>
-      <div>
+      <div className={styles['title']}>What <span>our clients</span> have to say?</div>
+      <div className={styles['cards']}>
         {data.map(item => {
           return (
             <Cards key={item.id}

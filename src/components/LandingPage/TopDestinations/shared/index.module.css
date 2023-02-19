@@ -1,1 +1,24 @@
 @import '/src/styles/font.module.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    width: 290px;
+    height: 224px;
+}
+
+.text-section {
+    border-radius: 0px 0px 20px 20px;
+    height: 53px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #F5F5F5;
+}

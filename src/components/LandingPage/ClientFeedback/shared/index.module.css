@@ -1,1 +1,65 @@
-@import '/src/styles/font.module.css';
+@import "/src/styles/font.module.css";
+
+.container {
+  width: 400px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+}
+
+.container img {
+  align-self: center;
+  margin-top: -30px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client-name {
+  padding-top: 22px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #162e40;
+}
+
+.client-story {
+    display: flex;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #222222;
+}
+
+.client-story span {
+  padding-right: 10px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #222222;
+}
+
+.span-2 {
+    align-self: end;
+}
+
+.stars-icon {
+}

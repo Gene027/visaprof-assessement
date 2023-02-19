@@ -2,26 +2,26 @@
 export const data = [
     {
         id: 1,
-        img: "/img.pgn",
+        img: "/Frame 62.png",
         title: "United Arab Emirates",
-        textButtom: "<span>&#8358</span>30,000 per person"
+        textButtom: "30,000 per person"
     },
     {
         id: 2,
-        img: "/img.pgn",
+        img: "/Frame 62 (1).png",
         title: "Maldives",
-        textButtom: "<span>&#8358</span>28,000 per person"
+        textButtom: "28,000 per person"
     },
     {
         id: 3,
-        img: "/img.pgn",
+        img: "/Frame 62 (2).png",
         title: "South Africa",
-        textButtom: "<span>&#8358</span>23,600 per person"
+        textButtom: "23,600 per person"
     },
     {
         id: 4,
-        img: "/img.pgn",
+        img: "/Frame 62 (3).png",
         title: "Jordan",
-        textButtom: "<span>&#8358</span>25,000 per person"
+        textButtom: "25,000 per person"
     }
     ]

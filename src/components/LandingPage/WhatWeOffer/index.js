@@ -7,7 +7,7 @@ export function WhatWeOffer() {
   return (
     <div className={styles['container']}>
       <div className={styles['title']}>What we offer our clients</div>
-      <div>
+      <div className={styles['cards']}>
         {data.map(item => {
           return (
             <Cards key={item.id}

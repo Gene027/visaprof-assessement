@@ -1,1 +1,32 @@
-@import '/src/styles/font.module.css';
+@import "/src/styles/font.module.css";
+
+.container {
+  margin-top: 247px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  align-self: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #222222;
+}
+
+.title span {
+  color: #d19439;
+}
+
+.cards {
+  margin-top: 84px;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  column-gap: 20px;
+
+}

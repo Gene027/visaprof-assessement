@@ -10,9 +10,9 @@ export function PopularDestination() {
 
       <div className={styles['subtitle']}>Tourist visa only</div>
 
-      <div>
-        <div className={styles['arrow']}>Arrow-left</div>
-        <div>
+      <div className={styles['cards-container']}>
+        <div className={styles['arrow']}><img src="/arrow2.png" alt="arrow left" /></div>
+        <div className={styles['cards']}>
           {data.map(item => {
             return (
               <Cards key={item.id}
@@ -22,7 +22,7 @@ export function PopularDestination() {
             )
           })}
         </div>
-        <div className={styles['arrow']}>Arrow-right</div>
+        <div className={styles['arrow']}><img src="/arrow1.png" alt="arrow left" /></div>
       </div>
 
     </div>
