@@ -1,43 +1,48 @@
 @import '/src/styles/font.module.css';
 
 .container {
-width: 229px;
-height: 106px;
-background-color: #F5F5F5;
-border: 1px solid #757575;
-border-radius: 15px;
-padding: 10px;
+    min-width: 235px;
+    height: 106px;
+    background-color: #F5F5F5;
+    border: 1px solid #757575;
+    border-radius: 15px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .top {
     font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: auto;
+}
 
+.lower{
+    height: 32px;
 }
 
 .middle {
     font-family: 'Lato';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 50px;
-letter-spacing: 0.02em;
-color: #222222;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #222222;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 15px; */
 }
 
-.middle span {
-    margin-left: 10px;
-}
-
-.buttom {
+.bottom {
     font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 25px;
-color: #162E40;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #162E40;
+    align-self: flex-end;
+    padding-top: 2px;
 }

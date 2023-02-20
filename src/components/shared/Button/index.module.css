@@ -9,11 +9,28 @@
     font-size: 20px;
     letter-spacing: 0.02em;
     transition: 0.5s;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .button:hover {
     cursor: pointer;
     transform: scale(105%);
+}
+
+.button:disabled{
+    cursor: default;
+    /* filter: brightness(50%); */
+}
+
+.button:disabled:hover{
+    transform: scale(100%);
+}
+
+.button svg{
+    animation: spin 0.5s linear infinite;
 }
 
 .solid {
@@ -26,4 +43,13 @@
     color: #222222;
     background-color: transparent;
     border: 1px solid #d19439;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }

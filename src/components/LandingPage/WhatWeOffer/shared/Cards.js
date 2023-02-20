@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 
-export function Cards({ top, buttom, middle }) {
+export function Cards({ top, bottom, middle }) {
   return (
     <div className={styles["container"]}>
       <div className={styles["top"]}>
@@ -10,7 +10,7 @@ export function Cards({ top, buttom, middle }) {
 
       <div className={styles["middle"]}>{middle}</div>
       
-      <div className={styles["buttom"]}>{buttom}</div>
+      <div className={styles["bottom"]}>{bottom}</div>
     </div>
   );
 }

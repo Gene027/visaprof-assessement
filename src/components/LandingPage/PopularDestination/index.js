@@ -18,7 +18,7 @@ export function PopularDestination() {
               <Cards key={item.id}
                 img={item.img}
                 title={item.title}
-                textButtom={item.textButtom} />
+                textbottom={item.textbottom} />
             )
           })}
         </div>

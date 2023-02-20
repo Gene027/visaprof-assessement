@@ -1,1 +1,102 @@
 @import '/src/styles/font.module.css';
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    /* overflow-y: hidden; */
+}
+
+.left-section{
+    width: 350px;
+}
+
+.right-section{
+    padding: 160px 91px;
+}
+
+.signup-as-agent{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #000000;    
+    margin: 30px 0px 50px;
+}
+
+.signup-as-agent span{
+    color: #D19439;
+    cursor: pointer;
+}
+
+.signup-as-agent span:hover{
+    text-decoration: underline;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.terms{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #222222;
+}
+
+.terms span{
+    color: #D19439;
+    cursor: pointer;
+}
+
+.terms span:hover{
+    text-decoration: underline;
+}
+
+.terms input{
+    cursor: pointer;
+}
+
+.signup-buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #757575;
+}
+
+.signup-buttons img{
+    cursor: pointer;
+}
+
+.sign-in-option{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;  
+}
+
+.sign-in-option span{
+    color: #D19439;
+    cursor: pointer;
+}
+
+.sign-in-option span:hover{
+    text-decoration: underline;
+}

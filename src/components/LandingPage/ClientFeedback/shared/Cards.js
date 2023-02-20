@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styles from "./index.module.css";
+import{ ImQuotesLeft, ImQuotesRight } from 'react-icons/im'
 
 export function Cards({ img, name, story }) {
   return (
@@ -10,9 +11,9 @@ export function Cards({ img, name, story }) {
       <div className={styles["stats"]}>
         <div className={styles["client-name"]}>{name}</div>
         <div className={styles["client-story"]}>
-          <span>"</span>
+          <span><ImQuotesLeft /></span>
           <div>{story}</div>
-          <span className={styles["span-2"]}>"</span>
+          <span className={styles["span-2"]}><ImQuotesRight /></span>
         </div>
         <div className={styles["stars-icon"]}>
           <img src="/Star 1.png" alt="star" />

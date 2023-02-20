@@ -1,0 +1,21 @@
+@import '/src/styles/font.module.css';
+
+.welcome-message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Lato';
+}
+
+.header{
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #222222;   
+}
+
+.sub{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}

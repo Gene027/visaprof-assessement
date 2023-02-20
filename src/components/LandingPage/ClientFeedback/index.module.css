@@ -4,6 +4,20 @@
   margin-top: 247px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.circle-vector-right{
+  position: absolute;
+  top: 80px;
+  right: 0px;
+}
+
+.circle-vector-left{
+  position: absolute;
+  bottom: -250px;
+  left: 0px;
 }
 
 .title {

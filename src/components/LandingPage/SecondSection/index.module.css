@@ -3,6 +3,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .ratings {
@@ -16,6 +17,7 @@
   padding: 15px 50px;
   justify-content: center;
   column-gap: 25px;
+  z-index: 10;
 }
 
 .ratings-number {
@@ -26,15 +28,15 @@
 .ratings-percent {
     display: flex;
     padding-left: 30px;
-  flex-direction: column;
-  border-left: 1px solid rgba(189, 189, 189, 0.7);
+    flex-direction: column;
+    border-left: 1px solid rgba(189, 189, 189, 0.7);
 }
 
 .ratings-time {
     display: flex;
     padding-left: 30px;
-  flex-direction: column;
-  border-left: 1px solid rgba(189, 189, 189, 0.7);
+    flex-direction: column;
+    border-left: 1px solid rgba(189, 189, 189, 0.7);
 }
 
 .ratings-top {
@@ -48,7 +50,7 @@
   align-self: center;
 }
 
-.ratings-buttom {
+.ratings-bottom {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -58,16 +60,28 @@
   align-self: center;
 }
 
-.buttom-section {
+.bottom-section {
     display: flex;
     margin-top: 234px;
     padding-right: 167px;
     padding-left: 181px;
 }
 
-.buttom-section img {
-    width: 393px;
-    height: 424px;
+.images{
+    display: flex;
+    align-items: center;
+}
+
+.bearded-man{
+  width: 393px;
+  height: 424px;
+  z-index: 1;
+}
+
+.doodle{
+  width: 395px;
+  height: 304px;
+  margin-left: -195px;
 }
 
 .text-section {
@@ -76,13 +90,13 @@
 }
 .text-title {
     font-family: 'Lato';
-font-style: normal;
-font-weight: 800;
-font-size: 36px;
-line-height: 50px;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
 
-color: #222222;
+  color: #222222;
 }
 
 .text-title span {
@@ -90,15 +104,14 @@ color: #222222;
 }
 
 .text-body {
-width: 563px;
-height: 125px;
-margin-right: 136px;
-margin-top: 30px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #222222;
-
+  width: 563px;
+  height: 125px;
+  margin-right: 136px;
+  margin-top: 30px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #222222;
 }

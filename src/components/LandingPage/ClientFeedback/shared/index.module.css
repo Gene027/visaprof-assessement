@@ -3,6 +3,7 @@
 .container {
   width: 400px;
   height: 264px;
+  padding: 0px 40px 30px; 
   display: flex;
   flex-direction: column;
   background: #ffffff;
@@ -20,6 +21,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
 }
 
 .client-name {
@@ -34,26 +38,20 @@
 
 .client-story {
     display: flex;
-  padding-top: 12px;
-  padding-bottom: 15px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-
-  color: #222222;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
 }
 
 .client-story span {
   padding-right: 10px;
-  font-family: "Proxima Nova";
-  font-style: normal;
   font-weight: 800;
-  font-size: 70px;
-  line-height: 50px;
-  text-align: center;
-  letter-spacing: 0.02em;
+  font-size: 20px;
   color: #222222;
 }
 
@@ -62,4 +60,6 @@
 }
 
 .stars-icon {
+  /* position: absolute; */
+  /* bottom: 30px; */
 }

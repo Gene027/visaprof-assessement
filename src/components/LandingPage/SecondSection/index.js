@@ -8,27 +8,27 @@ export function SecondSection() {
       <div className={styles["ratings"]}>
         <div className={styles["ratings-number"]}>
           <div className={styles["ratings-top"]}>200</div>
-          <div className={styles["ratings-buttom"]}>
+          <div className={styles["ratings-bottom"]}>
             clients who have trusted us
           </div>
         </div>
 
         <div className={styles["ratings-percent"]}>
           <div className={styles["ratings-top"]}>98%</div>
-          <div className={styles["ratings-buttom"]}>
+          <div className={styles["ratings-bottom"]}>
             Successful visa process rate
           </div>
         </div>
 
         <div className={styles["ratings-time"]}>
           <div className={styles["ratings-top"]}>60 hrs</div>
-          <div className={styles["ratings-buttom"]}>
+          <div className={styles["ratings-bottom"]}>
             Application approval time
           </div>
         </div>
       </div>
 
-      <div className={styles["buttom-section"]}>
+      <div className={styles["bottom-section"]}>
         <div className={styles["text-section"]}>
           <div className={styles["text-title"]}>
             Africa's <span>leading</span> visa consultants
@@ -42,7 +42,10 @@ export function SecondSection() {
           </div>
         </div>
 
-        <img src="/chess-img.png" alt="man on headphones" />
+        <div className={styles['images']}>
+          <img className={styles['bearded-man']} src="/chess-img.png" alt="man on headphones" />
+          <img className={styles['doodle']} src="/doodle.png" alt="" />
+        </div>
       </div>
     </div>
   );

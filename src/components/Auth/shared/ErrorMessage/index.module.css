@@ -1,0 +1,11 @@
+@import '/src/styles/font.module.css';
+
+.error-message{
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;    
+    color: #dd1515;
+    margin: 20px 0px;
+}

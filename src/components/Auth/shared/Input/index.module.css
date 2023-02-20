@@ -1,0 +1,53 @@
+@import '/src/styles/font.module.css';
+
+.input-wrapper{
+    width: 372px;
+    height: 52px;
+    background: rgba(209, 148, 57, 0.1);
+    border: 1.5px solid rgba(209, 148, 57, 0.4);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    flex: 1;
+    height: 100%;
+    background-color: transparent;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.phone-number{
+    position: absolute;
+    left: 0px;
+    margin-left: 40px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.phone-number-active{
+    padding-left: 130px;
+}
+
+.eye-icon{
+    position: absolute;
+    right: 20px;
+    color: #BDBDBD;
+    cursor: pointer;
+    font-size: 20px;
+}

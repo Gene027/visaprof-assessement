@@ -38,8 +38,8 @@ export function Footer() {
         </div>
       </div>
 
-      <div className={styles['footer-buttom']}>
-        <div className={styles['footer-buttom-content']}><span>&copy</span> 2022 VISAPROF Visa processing firm. All rights reserved</div>
+      <div className={styles['footer-bottom']}>
+        <div className={styles['footer-bottom-content']}><span>&copy;</span> 2022 VISAPROF Visa processing firm. All rights reserved</div>
       </div>
     </div>
   )

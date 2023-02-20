@@ -1,8 +1,12 @@
 import { Button } from '@/components/shared/Button'
-import React from 'react'
+import { useRouter } from 'next/router'
+import React, { useState } from 'react'
 import styles from './index.module.css'
 
 export function Nav() {
+  const [signupDropdown, setSignupDropdown] = useState(false)
+  const { push } = useRouter()
+
   return (
     <div className={styles['container']}>
       <img src='/logo.png' alt="Visaprof logo" />
@@ -15,8 +19,17 @@ export function Nav() {
       </div>
 
       <div className={styles['button-group']}>
-        <Button solid={false} >Sign In</Button>
-        <Button>Sign Up</Button>
+        <Button solid={false} onClick={() => push('/auth/login')}>Sign In</Button>
+        <Button onClick={() => setSignupDropdown(s => !s)}>Sign Up</Button>
+
+        {
+          signupDropdown &&
+          <div className={styles['signup-dropdown']}>
+              <div onClick={() => push('/auth/signup')}>Sign up as myself</div>
+              <hr/>
+              <div onClick={() => push('/auth/signup')}>Sign up as an agent</div>
+          </div>
+        }
       </div>
 
     </div>

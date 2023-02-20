@@ -13,7 +13,7 @@ export function WhatWeOffer() {
             <Cards key={item.id}
               top={item.top}
               middle={item.middle}
-              buttom={item.buttom} />
+              bottom={item.bottom} />
           )
         })}
       </div>
